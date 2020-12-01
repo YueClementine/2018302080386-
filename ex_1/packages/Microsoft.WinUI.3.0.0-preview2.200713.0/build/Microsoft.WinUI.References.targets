@@ -1,0 +1,47 @@
+<!--
+  Copyright (c) Microsoft Corporation. Licensed under the MIT License
+-->
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_WinUIRuntimeIdentifier Condition="'$(Platform)' == 'Win32'">win10-x86</_WinUIRuntimeIdentifier>
+    <_WinUIRuntimeIdentifier Condition="'$(Platform)' != 'Win32'">win10-$(Platform)</_WinUIRuntimeIdentifier>
+    <_WinUIDllDir>$(MSBuildThisFileDirectory)..\runtimes\$(_WinUIRuntimeIdentifier)\native\</_WinUIDllDir>
+
+    <!--
+      The C++ project system and Microsoft.NET.Sdk don't automatically copy our assemblies over,
+      so we need to do it ourselves. This condition can be removed once we move to .NET5 because
+      the behavior will be consistent.
+    -->
+    <_AddWinUIAssembliesToReferenceCopyLocalPaths Condition="'$(_AddWinUIAssembliesToReferenceCopyLocalPaths)'=='' AND '$(Platform)' == 'AnyCPU'">false</_AddWinUIAssembliesToReferenceCopyLocalPaths>
+    <_AddWinUIAssembliesToReferenceCopyLocalPaths Condition="'$(_AddWinUIAssembliesToReferenceCopyLocalPaths)'=='' AND '$(MSBuildProjectExtension)' == '.wapproj'">true</_AddWinUIAssembliesToReferenceCopyLocalPaths>
+    <_AddWinUIAssembliesToReferenceCopyLocalPaths Condition="'$(_AddWinUIAssembliesToReferenceCopyLocalPaths)'==''">$(UsingMicrosoftNETSdk)</_AddWinUIAssembliesToReferenceCopyLocalPaths>
+  </PropertyGroup>
+
+    <ItemGroup Condition="'$(_AddWinUIAssembliesToReferenceCopyLocalPaths)' == 'true'">
+    <ReferenceCopyLocalPaths Include="$(_WinUIDllDir)Microsoft.UI.Xaml.dll" />
+    <ReferenceCopyLocalPaths Include="$(_WinUIDllDir)Microsoft.UI.Xaml.Phone.dll" />
+    <ReferenceCopyLocalPaths Include="$(_WinUIDllDir)Microsoft.UI.Xaml.Controls.dll" />
+    <ReferenceCopyLocalPaths Include="$(_WinUIDllDir)Microsoft.UI.Xaml.Controls.pri" />
+    <ReferenceCopyLocalPaths Include="$(_WinUIDllDir)Microsoft.UI.Xaml.Resources.*.dll" />
+    <ReferenceCopyLocalPaths Include="$(_WinUIDllDir)Microsoft.Internal.XamlUdk.dll" />
+    <ReferenceCopyLocalPaths Include="$(_WinUIDllDir)Microsoft.UI.Xaml.Internal.dll" />
+    <ReferenceCopyLocalPaths Include="$(_WinUIDllDir)WinUIEdit.dll" />
+    <ReferenceCopyLocalPaths Include="$(_WinUIDllDir)**\*.mui">
+      <DestinationSubDirectory>%(RecursiveDir)</DestinationSubDirectory>
+    </ReferenceCopyLocalPaths>
+    
+    <ReferenceCopyLocalPaths Include="$(_WinUIDllDir)CoreMessagingXP.dll" />
+    <ReferenceCopyLocalPaths Include="$(_WinUIDllDir)dcompi.dll" />
+    <ReferenceCopyLocalPaths Include="$(_WinUIDllDir)dwmcorei.dll" />
+    <ReferenceCopyLocalPaths Include="$(_WinUIDllDir)inprocstubs.dll" />
+    <ReferenceCopyLocalPaths Include="$(_WinUIDllDir)marshal.dll" />
+    <ReferenceCopyLocalPaths Include="$(_WinUIDllDir)marshal_umode.dll" />
+    <ReferenceCopyLocalPaths Include="$(_WinUIDllDir)Microsoft.DirectManipulation.dll" />
+    <ReferenceCopyLocalPaths Include="$(_WinUIDllDir)Microsoft.InputStateManager.dll" />
+    <ReferenceCopyLocalPaths Include="$(_WinUIDllDir)Microsoft.UI.Input.dll" />
+    <ReferenceCopyLocalPaths Include="$(_WinUIDllDir)wuceffectsi.dll" />
+
+    <ReferenceCopyLocalPaths Include="$(_WinUIDllDir)WebView2Loader.dll" />
+  </ItemGroup>
+</Project>
+

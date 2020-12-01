@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-lo"
+"ResourceDimensions"		"language-lo-la"
+
+[Files]
+"C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x86\Release\split.language-lo.pri"			"resources.pri"

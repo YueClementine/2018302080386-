@@ -1,0 +1,8 @@
+﻿[ResourceMetadata]
+"ResourceId"			"filemap.language-en"
+"ResourceDimensions"		"language-en-us"
+
+[Files]
+"C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x86\Release\filemap.language-en.pri"			"resources.pri"
+"C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x86\Release\PackageLayout\en-us\Microsoft.UI.Xaml.Phone.dll.mui"			"en-us\Microsoft.UI.Xaml.Phone.dll.mui"
+"C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x86\Release\PackageLayout\en-us\Microsoft.ui.xaml.dll.mui"			"en-us\Microsoft.ui.xaml.dll.mui"

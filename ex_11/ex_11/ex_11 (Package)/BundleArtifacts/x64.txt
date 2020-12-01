@@ -1,0 +1,3 @@
+MainPackage=C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\ex_11 (Package)_1.0.0.0_x64.msix
+SymbolPackage=C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\Symbols\ex_11 (Package)_1.0.0.0_x64.appxsym
+ResourcePack=C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\ex_11 (Package)_1.0.0.0_language-zh-hans.msix

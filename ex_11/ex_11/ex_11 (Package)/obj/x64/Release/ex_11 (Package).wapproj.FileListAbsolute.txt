@@ -1,0 +1,63 @@
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\Microsoft.UI.Xaml.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\Microsoft.UI.Xaml.Phone.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\Microsoft.UI.Xaml.Controls.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\Microsoft.UI.Xaml.Controls.pri
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\Microsoft.ui.xaml.resources.19h1.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\Microsoft.ui.xaml.resources.common.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\Microsoft.Internal.XamlUdk.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\Microsoft.UI.Xaml.Internal.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\WinUIEdit.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\Microsoft.ui.xaml.dll.mui
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\Microsoft.UI.Xaml.Phone.dll.mui
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\CoreMessagingXP.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\dcompi.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\dwmcorei.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\inprocstubs.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\marshal.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\marshal_umode.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\Microsoft.DirectManipulation.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\Microsoft.InputStateManager.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\Microsoft.UI.Input.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\wuceffectsi.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\WebView2Loader.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\concrt140_app.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\msvcp140_1_app.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\msvcp140_2_app.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\msvcp140_app.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\vcamp140_app.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\vccorlib140_app.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\vcomp140_app.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\vcruntime140_1_app.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\vcruntime140_app.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\Microsoft.UI.Xaml\Assets\NoiseAsset_256X256_PNG.png
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\App.xbf
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\MainWindow.xbf
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\ex_11.exe
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\ex_11.pdb
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\resources.pri
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\AppxManifest.xml
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\ex_11 (Package).build.appxrecipe
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Release\System.Core.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\ex_11 (Package).wapprojAssemblyReference.cache
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\ex_11 (Package).wapproj.CoreCompileInputs.cache
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\ex_11 (Package).wapproj.CopyComplete
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\ex_11.pri.xml
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\priconfig.xml
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\priconfig.xml.intermediate
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\unfiltered.layout.resfiles
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\unfiltered.layout.resfiles.intermediate
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\filtered.layout.resfiles
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\filtered.layout.resfiles.intermediate
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\excluded.layout.resfiles
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\excluded.layout.resfiles.intermediate
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\resources.resfiles
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\resources.resfiles.intermediate
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\pri.resfiles
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\pri.resfiles.intermediate
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\qualifiers.txt
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\qualifiers.txt.intermediate
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\MultipleQualifiersPerDimensionFound.txt
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\Microsoft.UI.Xaml.Controls.pri.xml
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\ProjectArchitectures.txt
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\ex_11 (Package).wapproj.LastBuild.txt
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\kg5kdi3h.fbc\Microsoft.UI.Xaml.Controls.pri.xml

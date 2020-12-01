@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-uk"
+"ResourceDimensions"		"language-uk-ua"
+
+[Files]
+"C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x64\Release\split.language-uk.pri"			"resources.pri"

@@ -1,0 +1,29 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <!-- This property tells C++/WinRT build tools that they're compiling a WinUI app (Microsoft.UI.Xaml)
+         and not an inbox UWP app (Windows.UI.Xaml) -->
+    <XamlNamespace Condition="'$(XamlNamespace)' == ''">Microsoft.UI.Xaml</XamlNamespace>
+
+    <!-- This property informs VS and other targets that this is a WinUI Alpha project. -->
+    <IsWinUIAlpha Condition="'$(IsWinUIAlpha)' == ''">true</IsWinUIAlpha>
+
+    <!-- Setting this property, WindowsKitsPath, makes the VS SDK targets selector "not find the right path"
+         when including UWP tools. We want to use WinUI Alpha tools, not UWP. -->
+    <WindowsKitsPath Condition="'$(IsWinUIAlpha)' == 'true'">WinUI-Alpha-Projects-Don-t-Use-SDK-Xaml-Tools</WindowsKitsPath>
+  </PropertyGroup>
+
+  <!-- 
+    GenerateLibraryLayout is no longer necessary and results in excess file copies.
+    
+    This target can be overriden in case this warning is incorrect by putting an empty
+    target in your .csproj:
+
+    <Target Name="ValidateNoGenerateLibraryLayout" />
+  -->
+  <Target Name="ValidateNoGenerateLibraryLayout"
+          BeforeTargets="CopyFilesToOutputDirectory"
+          Condition="'$(IncludeXamlFilesInNugetPackage)'=='true' and '$(GenerateLibraryLayout)'=='true'">
+    <Warning Text="GenerateLibraryLayout is not needed for including Xaml files when the Pack target is ran
+and results in excess file copies. Unset the GenerateLibraryLayout property in your project file. "/>
+  </Target>
+</Project>

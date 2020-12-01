@@ -1,0 +1,57 @@
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll
+C:\windows_ex\ex_11\x64\Debug\ex_11\ex_11\App.xbf
+C:\windows_ex\ex_11\x64\Debug\ex_11\ex_11\MainWindow.xbf
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\Images\SplashScreen.scale-200.png
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\Images\LockScreenLogo.scale-200.png
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\Images\Square150x150Logo.scale-200.png
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\Images\Square44x44Logo.scale-200.png
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\Images\Square44x44Logo.targetsize-24_altform-unplated.png
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\Images\StoreLogo.png
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\Images\Wide310x150Logo.scale-200.png
+C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\X64\ucrtbased.dll
+C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x64\Debug\resources.pri
+C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x64\native\Microsoft.UI.Xaml.dll
+C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x64\native\Microsoft.UI.Xaml.Phone.dll
+C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x64\native\Microsoft.UI.Xaml.Controls.dll
+C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x64\native\Microsoft.UI.Xaml.Controls.pri
+C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x64\native\Microsoft.ui.xaml.resources.19h1.dll
+C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x64\native\Microsoft.ui.xaml.resources.common.dll
+C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x64\native\Microsoft.Internal.XamlUdk.dll
+C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x64\native\Microsoft.UI.Xaml.Internal.dll
+C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x64\native\WinUIEdit.dll
+C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x64\native\en-us\Microsoft.ui.xaml.dll.mui
+C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x64\native\en-us\Microsoft.UI.Xaml.Phone.dll.mui
+C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x64\native\CoreMessagingXP.dll
+C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x64\native\dcompi.dll
+C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x64\native\dwmcorei.dll
+C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x64\native\inprocstubs.dll
+C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x64\native\marshal.dll
+C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x64\native\marshal_umode.dll
+C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x64\native\Microsoft.DirectManipulation.dll
+C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x64\native\Microsoft.InputStateManager.dll
+C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x64\native\Microsoft.UI.Input.dll
+C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x64\native\wuceffectsi.dll
+C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x64\native\WebView2Loader.dll
+C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x64\native\debug\concrt140d_app.dll
+C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x64\native\debug\msvcp140d_app.dll
+C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x64\native\debug\msvcp140_1d_app.dll
+C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x64\native\debug\msvcp140_2d_app.dll
+C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x64\native\debug\vcamp140d_app.dll
+C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x64\native\debug\vccorlib140d_app.dll
+C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x64\native\debug\vcomp140d_app.dll
+C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x64\native\debug\vcruntime140d_app.dll
+C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x64\native\debug\vcruntime140_1d_app.dll
+C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x64\native\release\concrt140_app.dll
+C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x64\native\release\msvcp140_1_app.dll
+C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x64\native\release\msvcp140_2_app.dll
+C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x64\native\release\msvcp140_app.dll
+C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x64\native\release\vcamp140_app.dll
+C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x64\native\release\vccorlib140_app.dll
+C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x64\native\release\vcomp140_app.dll
+C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x64\native\release\vcruntime140_1_app.dll
+C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x64\native\release\vcruntime140_app.dll
+C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x64\native\Microsoft.UI.Xaml\Assets\NoiseAsset_256X256_PNG.png
+C:\windows_ex\ex_11\ex_11\ex_11\Generated Files\App.xbf
+C:\windows_ex\ex_11\ex_11\ex_11\Generated Files\MainWindow.xbf
+C:\windows_ex\ex_11\x64\Debug\ex_11\ex_11.exe
+C:\windows_ex\ex_11\x64\Debug\ex_11\ex_11.pdb

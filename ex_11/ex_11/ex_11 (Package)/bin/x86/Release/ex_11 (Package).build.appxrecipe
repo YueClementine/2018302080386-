@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-7U5EH9A</Machine>
+    <WindowsUser>岳兵</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>e08133af-1fd7-4913-be80-8bbd9532997e</PackageIdentityName>
+    <PackageIdentityPublisher>CN=岳兵</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\windows_ex\ex_11\ex_11\ex_11 %28Package%29\obj\x86\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath></WindowsSdkPath>
+    <LayoutDir>C:\windows_ex\ex_11\ex_11\ex_11 %28Package%29\bin\x86\Release\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\windows_ex\ex_11\ex_11\ex_11 %28Package%29\bin\x86\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll">
+      <PackagePath>System.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\ex_11\ex_11 %28Package%29\Images\SplashScreen.scale-200.png">
+      <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\ex_11\ex_11 %28Package%29\Images\LockScreenLogo.scale-200.png">
+      <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\ex_11\ex_11 %28Package%29\Images\Square150x150Logo.scale-200.png">
+      <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\ex_11\ex_11 %28Package%29\Images\Square44x44Logo.scale-200.png">
+      <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\ex_11\ex_11 %28Package%29\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\ex_11\ex_11 %28Package%29\Images\StoreLogo.png">
+      <PackagePath>Images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\ex_11\ex_11 %28Package%29\Images\Wide310x150Logo.scale-200.png">
+      <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\ex_11\ex_11 %28Package%29\bin\x86\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.UI.Xaml.dll">
+      <PackagePath>Microsoft.UI.Xaml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.UI.Xaml.Phone.dll">
+      <PackagePath>Microsoft.UI.Xaml.Phone.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.UI.Xaml.Controls.dll">
+      <PackagePath>Microsoft.UI.Xaml.Controls.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.UI.Xaml.Controls.pri">
+      <PackagePath>Microsoft.UI.Xaml.Controls.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.ui.xaml.resources.19h1.dll">
+      <PackagePath>Microsoft.ui.xaml.resources.19h1.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.ui.xaml.resources.common.dll">
+      <PackagePath>Microsoft.ui.xaml.resources.common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.Internal.XamlUdk.dll">
+      <PackagePath>Microsoft.Internal.XamlUdk.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.UI.Xaml.Internal.dll">
+      <PackagePath>Microsoft.UI.Xaml.Internal.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x86\native\WinUIEdit.dll">
+      <PackagePath>WinUIEdit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x86\native\en-us\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>en-us\Microsoft.ui.xaml.dll.mui</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x86\native\en-us\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>en-us\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x86\native\CoreMessagingXP.dll">
+      <PackagePath>CoreMessagingXP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x86\native\dcompi.dll">
+      <PackagePath>dcompi.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x86\native\dwmcorei.dll">
+      <PackagePath>dwmcorei.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x86\native\inprocstubs.dll">
+      <PackagePath>inprocstubs.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x86\native\marshal.dll">
+      <PackagePath>marshal.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x86\native\marshal_umode.dll">
+      <PackagePath>marshal_umode.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.DirectManipulation.dll">
+      <PackagePath>Microsoft.DirectManipulation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.InputStateManager.dll">
+      <PackagePath>Microsoft.InputStateManager.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.UI.Input.dll">
+      <PackagePath>Microsoft.UI.Input.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x86\native\wuceffectsi.dll">
+      <PackagePath>wuceffectsi.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x86\native\WebView2Loader.dll">
+      <PackagePath>WebView2Loader.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x86\native\release\concrt140_app.dll">
+      <PackagePath>concrt140_app.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x86\native\release\msvcp140_1_app.dll">
+      <PackagePath>msvcp140_1_app.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x86\native\release\msvcp140_2_app.dll">
+      <PackagePath>msvcp140_2_app.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x86\native\release\msvcp140_app.dll">
+      <PackagePath>msvcp140_app.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x86\native\release\vcamp140_app.dll">
+      <PackagePath>vcamp140_app.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x86\native\release\vccorlib140_app.dll">
+      <PackagePath>vccorlib140_app.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x86\native\release\vcomp140_app.dll">
+      <PackagePath>vcomp140_app.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.VCRTForwarders.140.1.0.6\runtimes\win10-x86\native\release\vcruntime140_app.dll">
+      <PackagePath>vcruntime140_app.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\packages\Microsoft.WinUI.3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.UI.Xaml\Assets\NoiseAsset_256X256_PNG.png">
+      <PackagePath>Microsoft.UI.Xaml\Assets\NoiseAsset_256X256_PNG.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\ex_11\ex_11\Generated Files\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\ex_11\ex_11\Generated Files\MainWindow.xbf">
+      <PackagePath>MainWindow.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\windows_ex\ex_11\Release\ex_11\ex_11.exe">
+      <PackagePath>ex_11.exe</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.UWPDesktop</Name>
+      <Version>14.0.29016.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.UWPDesktop, MinVersion = 14.0.29016.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.UWPDesktop</Name>
+      <Version>14.0.29016.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.UWPDesktop, MinVersion = 14.0.29016.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Retail\arm\Microsoft.VCLibs.arm.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.UWPDesktop</Name>
+      <Version>14.0.29016.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.UWPDesktop, MinVersion = 14.0.29016.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Retail\arm64\Microsoft.VCLibs.arm64.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.UWPDesktop</Name>
+      <Version>14.0.29016.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.UWPDesktop, MinVersion = 14.0.29016.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.UWPDesktop</Name>
+      <Version>14.0.29016.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.UWPDesktop, MinVersion = 14.0.29016.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.UWPDesktop</Name>
+      <Version>14.0.29016.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.UWPDesktop, MinVersion = 14.0.29016.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Retail\arm\Microsoft.VCLibs.arm.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.UWPDesktop</Name>
+      <Version>14.0.29016.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.UWPDesktop, MinVersion = 14.0.29016.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Retail\arm64\Microsoft.VCLibs.arm64.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.UWPDesktop</Name>
+      <Version>14.0.29016.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.UWPDesktop, MinVersion = 14.0.29016.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.UWPDesktop</Name>
+      <Version>14.0.29016.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.UWPDesktop, MinVersion = 14.0.29016.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

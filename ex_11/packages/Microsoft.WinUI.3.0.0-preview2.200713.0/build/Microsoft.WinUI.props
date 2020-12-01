@@ -1,0 +1,48 @@
+﻿<!--
+  Copyright (c) Microsoft Corporation. Licensed under the MIT License
+-->
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <XamlCompilerPropsAndTargetsDirectory Condition="'$(XamlCompilerPropsAndTargetsDirectory)' == ''">$(MSBuildThisFileDirectory)</XamlCompilerPropsAndTargetsDirectory>
+    <EnableDefaultPageItems Condition="'$(EnableDefaultPageItems)' == ''">true</EnableDefaultPageItems> 
+    <EnableDefaultApplicationDefinition Condition="'$(EnableDefaultApplicationDefinition)' == ''">true</EnableDefaultApplicationDefinition>
+    <EnableDefaultAssets Condition="'$(EnableDefaultAssets)' == ''">true</EnableDefaultAssets>
+  </PropertyGroup>
+    
+  <Import Project="$(XamlCompilerPropsAndTargetsDirectory)Microsoft.UI.Xaml.Markup.Compiler.props" Condition="'$(MSBuildProjectExtension)'!='.wapproj'" />
+
+  <!--
+    Add a dependency for the app against VCLibs since it doesn't come with .NET only apps. C++ apps
+    will already have this dependency, but duplicate referenes are a no-op so there's no need to
+    condition the dependency.
+   -->
+  <ItemGroup Condition="'$(OutputType)' == 'AppContainerExe'">
+    <SDKReference Include="Microsoft.VCLibs, Version=14.0" />
+  </ItemGroup>
+  
+  <!--
+    Enable default items for .NET projects that are using the SDK-style projects
+  -->
+  <ItemGroup Condition="'$(EnableDefaultItems)' == 'true' and '$(UsingMicrosoftNETSdk)' == 'true'">
+    <ApplicationDefinition Include="App.xaml"
+                           Condition="'$(EnableDefaultApplicationDefinition)' != 'false' And Exists('$(MSBuildProjectDirectory)/App.xaml') And '$(MSBuildProjectExtension)' == '.csproj'">
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <ApplicationDefinition Include="Application.xaml"
+                           Condition="'$(EnableDefaultApplicationDefinition)' != 'false' And Exists('$(MSBuildProjectDirectory)/Application.xaml') And '$(MSBuildProjectExtension)' == '.vbproj'">
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+
+    <Page Include="**/*.xaml"
+          Exclude="$(DefaultItemExcludes);$(DefaultExcludesInProjectFolder);@(ApplicationDefinition)"
+          Condition="'$(EnableDefaultPageItems)' != 'false'" >
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+
+    <None Remove="**/*.xaml"
+          Condition="'$(EnableDefaultApplicationDefinition)' != 'false' And '$(EnableDefaultPageItems)' != 'false'" />
+  
+    <Content Include="Assets/**/*.*" Condition="'$(EnableDefaultAssets)'=='true'"/>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-ta"
+"ResourceDimensions"		"language-ta-in"
+
+[Files]
+"C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x86\Release\split.language-ta.pri"			"resources.pri"

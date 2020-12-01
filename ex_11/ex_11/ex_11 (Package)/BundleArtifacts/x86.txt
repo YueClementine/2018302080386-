@@ -1,0 +1,2 @@
+MainPackage=C:\windows_ex\ex_11\ex_11\ex_11 (Package)\bin\x86\Release\ex_11 (Package)_1.0.0.0_x86.msix
+SymbolPackage=C:\windows_ex\ex_11\ex_11\ex_11 (Package)\obj\x86\Release\Symbols\ex_11 (Package)_1.0.0.0_x86.appxsym

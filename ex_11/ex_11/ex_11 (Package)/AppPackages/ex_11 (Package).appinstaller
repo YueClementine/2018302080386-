@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="file:///C:/windows_ex/ex_11 (Package).appinstaller"
+	Version="1.0.0.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainBundle
+		Name="e08133af-1fd7-4913-be80-8bbd9532997e"
+		Version="1.0.0.0"
+		Publisher="CN=岳兵"
+		Uri="file:///C:/windows_ex/ex_11 (Package)_1.0.0.0_Test/ex_11 (Package)_1.0.0.0_x86_x64.msixbundle" />
+	<Dependencies>
+		<Package
+			Name="Microsoft.VCLibs.140.00.UWPDesktop"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			Version="14.0.29016.0"
+			ProcessorArchitecture="x64"
+			Uri="file:///C:/windows_ex/ex_11 (Package)_1.0.0.0_Test/Dependencies/x64/Microsoft.VCLibs.x64.14.00.Desktop.appx" />
+		<Package
+			Name="Microsoft.VCLibs.140.00.UWPDesktop"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			Version="14.0.29016.0"
+			ProcessorArchitecture="x86"
+			Uri="file:///C:/windows_ex/ex_11 (Package)_1.0.0.0_Test/Dependencies/x86/Microsoft.VCLibs.x86.14.00.Desktop.appx" />
+	</Dependencies>
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>
